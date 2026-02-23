@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
+  <title id="title">Temple Gold Rush banner</title>
+  <desc id="desc">Stylized temple doorway with jungle leaves and treasure glow</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e4d3e" />
+      <stop offset="100%" stop-color="#8f4c23" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="74%" r="35%">
+      <stop offset="0%" stop-color="#f0d09f" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#f0d09f" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="640" height="320" fill="url(#bg)" rx="18" />
+  <circle cx="320" cy="250" r="140" fill="url(#glow)" />
+  <path d="M160 268h320l-26-148H186z" fill="#f2dfbf" fill-opacity="0.16" />
+  <path d="M210 266h220V118H210z" fill="#f8e8cf" fill-opacity="0.4" />
+  <path d="M260 266h120V160H260z" fill="#193f33" fill-opacity="0.82" />
+  <path d="M60 320c34-84 55-110 98-138-10 35-5 81 6 138H60zm520 0c-34-84-55-110-98-138 10 35 5 81-6 138h104z" fill="#122f27" fill-opacity="0.42" />
+  <circle cx="320" cy="208" r="16" fill="#dc9f4e" />
+  <circle cx="288" cy="220" r="11" fill="#f0d09f" />
+  <circle cx="352" cy="220" r="11" fill="#f0d09f" />
+</svg>
